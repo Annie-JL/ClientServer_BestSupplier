@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="345.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AdminMenuController">
+    <children>
+        <Button fx:id="usersBtn" layoutX="47.0" layoutY="30.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="357.0" style="-fx-background-color: #6e3cb3;" text="Пользователи" textAlignment="CENTER" textFill="WHITE" />
+        <Button fx:id="canselBtn" layoutX="153.0" layoutY="275.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: #D10900;" text="Выход" textFill="WHITE" />
+      <Button fx:id="categoriesBtn" layoutX="47.0" layoutY="76.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="357.0" style="-fx-background-color: #6e3cb3;" text="Категории" textFill="WHITE" />
+      <Button fx:id="productsBtn" layoutX="47.0" layoutY="124.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="357.0" style="-fx-background-color: #6e3cb3;" text="Поставщики" textFill="WHITE" />
+    </children>
+</AnchorPane>
